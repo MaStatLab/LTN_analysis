@@ -151,9 +151,9 @@ $WORK_DIR/src/application/figures_tables.R $WORK_DIR
 
 A. D. Kostic, D. Gevers, H. Siljander, T. Vatanen, T. Hyo ̈tyl ̈ainen, A.-M. H ̈ama ̈la ̈inen, A. Peet, V. Tillmann, P. Po ̈h ̈o, I. Mattila, H. La ̈hdesm ̈aki, E. A. Franzosa, O. Vaar- ala, M. de Goffau, H. Harmsen, J. Ilonen, S. M. Virtanen, C. B. Clish, M. Oreˇsiˇc, C. Huttenhower, M. Knip, and R. J. Xavier. The dynamics of the human infant gut microbiome in development and in progression toward type 1 diabetes. Cell Host & Microbe, 17(2):260–273, 2020/12/18 2015. doi: 10.1016/j.chom.2015.01.001. URL https://doi.org/10.1016/j.chom.2015.01.001.
 
-Y. Cao, W. Lin, and H. Li. Large covariance estimation for compositional data via composition-adjusted thresholding. Journal of the American Statistical Association, 114 (526):759–772, 2019. doi: 10.1080/01621459.2018.1442340. URL https://doi.org/10. 1080/01621459.2018.1442340.
+Y. Cao, W. Lin, and H. Li. Large covariance estimation for compositional data via composition-adjusted thresholding. Journal of the American Statistical Association, 114 (526):759–772, 2019. doi: 10.1080/01621459.2018.1442340. URL https://doi.org/10.1080/01621459.2018.1442340.
 
-B. Ren, S. Bacallado, S. Favaro, T. Vatanen, C. Huttenhower, and L. Trippa. Bayesian mixed effects models for zero-inflated compositions in microbiome data analysis. Ann. Appl. Stat., 14(1):494–517, 03 2020. doi: 10.1214/19-AOAS1295. URL https://doi. org/10.1214/19-AOAS1295.
+B. Ren, S. Bacallado, S. Favaro, T. Vatanen, C. Huttenhower, and L. Trippa. Bayesian mixed effects models for zero-inflated compositions in microbiome data analysis. Ann. Appl. Stat., 14(1):494–517, 03 2020. doi: 10.1214/19-AOAS1295. URL https://doi.org/10.1214/19-AOAS1295.
 
 
 
