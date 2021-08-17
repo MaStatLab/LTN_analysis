@@ -25,14 +25,14 @@ The folder "./src" contains all scripts to reproduce the results in the paper. T
 - ./src/simulation/covariance_estimation/ln_graph.R: functions for generating sparse networks (adapted from [this file](https://github.com/yuanpeicao/COAT/blob/master/simulation.R) )
 - ./src/simulation/covariance_estimation/dtm_fit_parse.R: fits the LTN model to DTM examples
 - ./src/simulation/covariance_estimation/ln_fit_parse.R: fits the LTN model to LN examples
-- ./src/simulation/covariance_estimation/COAT.R: functions for fitting COAT (adapted from [this file](https://github.com/yuanpeicao/COAT/blob/master/coat.R) )  
+- ./src/simulation/covariance_estimation/COAT.R: functions for fitting COAT (Cao et al., 2019) (adapted from [this file](https://github.com/yuanpeicao/COAT/blob/master/coat.R) )  
 - ./src/simulation/covariance_estimation/fit_COAT.R: fits COAT to the simulated data
 - ./src/simulation/covariance_estimation/collect_results.R: collects the results and produces the tables shown in section 3.2 in the paper
 - ./src/simulation/cross_group_comparison/single_otu_sim.R: generates simulated datasets where cross-group differences exist at a single OTU
 - ./src/simulation/cross_group_comparison/multi_otu_sim.R: generates simulated datasets where cross-group differences exist at multiple OTUs
 - ./src/simulation/cross_group_comparison/fit.R: fits LTN to the simulated data
 - ./src/simulation/cross_group_comparison/roc.R: calculates the ROC curve of LTN
-- ./src/simulation/cross_group_comparison/dirfactor: scripts for fitting DirFactor to the simulated data (adapted from [this Github repository](https://github.com/boyuren158/DirFactor-fix) )
+- ./src/simulation/cross_group_comparison/dirfactor: scripts for fitting DirFactor (Ren et al., 2020) to the simulated data (adapted from [this Github repository](https://github.com/boyuren158/DirFactor-fix) )
 - ./src/simulation/cross_group_comparison/plot.R: produces figures shown in section 3.2 of the paper
 -  ./src/application/application.R: fits LTN-based mixed-effects model to the T1D cohort of DIABIMMUNE data
 - ./src/applicaation/figures_tables.R: produces all figures and tables shown in the case study section of the paper
@@ -144,6 +144,16 @@ $WORK_DIR/src/application/application.R $WORK_DIR 10000 $i $lambda
 done
 $WORK_DIR/src/application/figures_tables.R $WORK_DIR
 ```
+
+
+
+## References
+
+A. D. Kostic, D. Gevers, H. Siljander, T. Vatanen, T. Hyo ̈tyl ̈ainen, A.-M. H ̈ama ̈la ̈inen, A. Peet, V. Tillmann, P. Po ̈h ̈o, I. Mattila, H. La ̈hdesm ̈aki, E. A. Franzosa, O. Vaar- ala, M. de Goffau, H. Harmsen, J. Ilonen, S. M. Virtanen, C. B. Clish, M. Oreˇsiˇc, C. Huttenhower, M. Knip, and R. J. Xavier. The dynamics of the human infant gut microbiome in development and in progression toward type 1 diabetes. Cell Host & Microbe, 17(2):260–273, 2020/12/18 2015. doi: 10.1016/j.chom.2015.01.001. URL https://doi.org/10.1016/j.chom.2015.01.001.
+
+Y. Cao, W. Lin, and H. Li. Large covariance estimation for compositional data via composition-adjusted thresholding. Journal of the American Statistical Association, 114 (526):759–772, 2019. doi: 10.1080/01621459.2018.1442340. URL https://doi.org/10. 1080/01621459.2018.1442340.
+
+B. Ren, S. Bacallado, S. Favaro, T. Vatanen, C. Huttenhower, and L. Trippa. Bayesian mixed effects models for zero-inflated compositions in microbiome data analysis. Ann. Appl. Stat., 14(1):494–517, 03 2020. doi: 10.1214/19-AOAS1295. URL https://doi. org/10.1214/19-AOAS1295.
 
 
 
