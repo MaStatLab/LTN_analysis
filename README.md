@@ -1,5 +1,7 @@
 # Logistic-tree normal models for microbiome compositions --- reproducible workflow
 
+Source code for [this paper](https://arxiv.org/abs/2106.15051).
+
 ## Data
 
 The data of the T1D cohort of the DIABIMMUNE project (Kostic et al., 2015) is used in this paper. 
